@@ -1,0 +1,21 @@
+# Dependencies and generated build output
+**/node_modules/
+**/dist/
+**/.vite/
+
+# Local configuration and secrets
+**/.env
+**/.env.*
+!**/.env.example
+
+# Admin-uploaded runtime images
+/Backend/uploads/*
+!/Backend/uploads/.gitkeep
+
+# Local/editor files
+.DS_Store
+._*
+*.local
+.idea/
+.vscode/*
+!.vscode/extensions.json
